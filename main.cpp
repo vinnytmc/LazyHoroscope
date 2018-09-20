@@ -7,13 +7,14 @@ using namespace std;
 int main()
 {
   //declare variables
-std::string firstName;
-std::string lastName;
+string firstName;
+string lastName;
   //get user input
-std::cout<<"enter in your first name\n";
-std::cin>>firstName;
-std::cout<<"enter in your last name\n";
-std::cin>>lastName;
+cout<<"enter in your first name\n";
+cin>>firstName;
+cout<<"enter in your last name\n";
+cin>>lastName;
   //tell fortune
-
-  return 0
+cout<<"welcome "<<firstName[0]<<lastName[0]<<" here is your fortune \n";
+ return 0;
+}
