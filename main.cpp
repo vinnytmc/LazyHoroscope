@@ -14,9 +14,9 @@ int main()
   int index2;
 
   //get user input
-  cout<<"enter in your first name\n";
+  cout<<"what is in your first name\n";
   cin>>firstName;
-  cout<<"enter in your last name\n";
+  cout<<"what in your last name\n";
   cin>>lastName;
   //tell fortune
   index = firstName.length()-1;
@@ -31,14 +31,14 @@ int main()
   }
   else 
   {
-    cout<<"keep a low profile\n";
+    cout<<"you should keep a low profile.\n";
   }
 
   if(lastName[index2] == 'a' || lastName[index2] == 'A' || lastName[index2] == 'e'|| lastName[index2] == 'E' || lastName[index2] == 'i' || lastName[index2] == 'I'|| lastName[index2] == 'o' || lastName[index2] == 'O' || lastName[index2] == 'u'|| lastName[index2] == 'U')
   {
     cout<<"you have already met your true love\n";
   }
-  cout<<"Have a good day!\n";
+  cout<<"have a good day!\n";
 
 
   return 0;
