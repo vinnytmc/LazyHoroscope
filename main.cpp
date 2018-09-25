@@ -14,9 +14,9 @@ int main()
   int index2;
 
   //get user input
-  cout<<"what is your first name?\n";
+  cout<<"What is your first name?\n";
   cin>>firstName;
-  cout<<"what is your last name?\n";
+  cout<<"What is your last name?\n";
   cin>>lastName;
   //tell fortune
   index = firstName.length()-1;
